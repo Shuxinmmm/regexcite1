@@ -14,3 +14,5 @@ library(devtools)
 load_all()
 
 strsplit1(x, split = ",")
+
+check()
