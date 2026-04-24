@@ -11,7 +11,6 @@ library(usethis)
 use_r("strsplit1")
 
 library(devtools)
-load_all()
 
 strsplit1(x, split = ",")
 
