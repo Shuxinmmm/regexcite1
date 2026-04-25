@@ -8,7 +8,7 @@
 #'
 #' @examples
 #' x <- "alfa,bravo,charlie,delta"
-#' strsplit1(x, split = ",")
+#' str_split_one(x, ",")
 str_split_one <- function(string, pattern, n = Inf) {
   stopifnot(is.character(string), length(string) <= 1)
   if (length(string) == 1) {
